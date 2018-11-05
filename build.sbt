@@ -6,8 +6,8 @@ description  := "SBT plugin which provides Amazon S3 bucket resolvers"
 bucketSuffix := "era7.com"
 
 javaVersion  := "1.8"
-scalaVersion := "2.12.3"
-sbtVersion   := "1.0.2"
+scalaVersion := "2.12.7"
+sbtVersion   := "1.2.6"
 
 resolvers += Resolver.jcenterRepo
 libraryDependencies += "ohnosequences" % "ivy-s3-resolver" % "0.13.0"

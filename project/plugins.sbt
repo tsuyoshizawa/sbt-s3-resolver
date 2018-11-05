@@ -3,6 +3,6 @@ resolvers ++= Seq(
   "repo.jenkins-ci.org" at "https://repo.jenkins-ci.org/public",
   Resolver.jcenterRepo
 )
-addSbtPlugin("ohnosequences" % "nice-sbt-settings" % "0.9.0")
+addSbtPlugin("ohnosequences" % "nice-sbt-settings" % "0.10.0")
 
-addSbtPlugin("org.foundweekends" % "sbt-bintray" % "0.5.1")
+addSbtPlugin("org.foundweekends" % "sbt-bintray" % "0.5.4")
